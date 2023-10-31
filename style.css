@@ -33,11 +33,11 @@ body {
     letter-spacing: 2px;
     font-family: 'Courier New', Courier, monospace;
     background-color: #805347;
-    border: none;
+    /* border: none; */
 }
 
 .screen {
-    margin: 44% 0 0% 0;
+    margin: 10% 0 0% 0;
     display: flex;
     justify-content: flex-end;
 }

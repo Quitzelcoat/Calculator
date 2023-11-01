@@ -4,46 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <nav id="heading">
+        <h2 class="title">
+            The Cal Culc
+        </h2>
+    </nav>
+    <br>
     <main id="display">
         <div class="screen">
-            <input type="text" id="inputTwo" value="">
-        </div>
-        <div class="screen">
-            <input type="text" value="0" id="input">
+            <div id="input">0</div>
         </div>
         
         <div class="btnOne totalBtn">
-            <button type="button" class="btn" value="c">C</button>
-            <button type="button" class="btn" value="( )">()</button>
-            <button type="button" class="btn" value="%">%</button>
-            <button type="button" class="btn" value="/">/</button>
+            <button type="button" class="btn clearBtn" value="c">C</button>
+            <button type="button" class="btn bracketsBtn" value="( )">()</button>
+            <button type="button" class="btn deleteBtn" value="Del"></button>
+            <button type="button" class="btn operateBtn" value="/">/</button>
         </div>
         <div class="btnTwo totalBtn">
-            <button type="button" class="btn" value="7">7</button>
-            <button type="button" class="btn" value="8">8</button>
-            <button type="button" class="btn" value="9">9</button>
-            <button type="button" class="btn" value="*">*</button>
+            <button type="button" class="btn numberBtn" value="7">7</button>
+            <button type="button" class="btn numberBtn" value="8">8</button>
+            <button type="button" class="btn numberBtn" value="9">9</button>
+            <button type="button" class="btn operateBtn" value="*">*</button>
         </div>
         <div class="btnThree totalBtn">
-            <button type="button" class="btn" value="4">4</button>
-            <button type="button" class="btn" value="5">5</button>
-            <button type="button" class="btn" value="6">6</button>
-            <button type="button" class="btn" value="-">-</button>
+            <button type="button" class="btn numberBtn" value="4">4</button>
+            <button type="button" class="btn numberBtn" value="5">5</button>
+            <button type="button" class="btn numberBtn" value="6">6</button>
+            <button type="button" class="btn operateBtn" value="-">-</button>
         </div>
         <div class="btnFour totalBtn">
-            <button type="button" class="btn" value="1">1</button>
-            <button type="button" class="btn" value="2">2</button>
-            <button type="button" class="btn" value="3">3</button>
-            <button type="button" class="btn" value="+">+</button>
+            <button type="button" class="btn numberBtn" value="1">1</button>
+            <button type="button" class="btn numberBtn" value="2">2</button>
+            <button type="button" class="btn numberBtn" value="3">3</button>
+            <button type="button" class="btn operateBtn" value="+">+</button>
         </div>
         <div class="btnFive totalBtn">
-            <button type="button" class="btn" value=".">.</button>
-            <button type="button" class="btn" value="0">0</button>
-            <button type="button" class="btn" value="=">=</button>
+            <button type="button" class="btn numberBtn" value="0">0</button>
+            <button type="button" class="btn dotBtn" value=".">.</button>
+            <button type="button" class="btn equalsBtn" value="=">=</button>
         </div>
 
     </main>
